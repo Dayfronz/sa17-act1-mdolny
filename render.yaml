@@ -7,7 +7,7 @@ services:
     name: mattfolio # Fill in a name for your web app
     runtime: ruby
     plan: free
-    region: Oregon (US West) # Fill in "region" to match the Render PostgreSQL DB's
+    region: Oregon # Fill in "region" to match the Render PostgreSQL DB's
 # Region -- Options are oregon (default), ohio, virginia, frankfurt, singapore
     buildCommand: "./bin/render-build.sh" # This runs the script file we created
     startCommand: "bundle exec rails server"
